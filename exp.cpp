@@ -19,7 +19,9 @@ int main() {
 
     pi *= 4;
 
-    cout << "使用莱布尼兹公式项数为: " << n << "\n得到pi为: "<< fixed << setprecision(10) << pi << endl;
+    cout << "使用莱布尼兹公式项数为: " << n << endl;
+
+    cout << "得到pi为: "<< fixed << setprecision(10) << pi << endl;
 
     return 0;
 }
